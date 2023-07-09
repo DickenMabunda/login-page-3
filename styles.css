@@ -1,0 +1,169 @@
+html {
+    background-color: #878a9b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial;
+}
+
+.img-bkg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1; 
+      
+}
+
+.navbar {
+    height: 50px;
+    position: static;
+    background-color: rgba(135, 206, 250,0.1);
+    backdrop-filter: blur(10px);
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 5px;
+    
+
+}
+
+.link-a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+a:hover {
+    color: rgb(0, 187, 250);  
+}
+
+.items {
+    
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.login-section {
+    width: 30%;
+    height: 450px;
+    margin: 120px auto 0 auto;
+    background-color: rgba(251, 254, 255, 0.01);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.login {
+    
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.username, .password {
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.input-1, .input-2 {
+    display: flex;
+
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 80%;
+    margin: 0px auto 20px auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: serif;
+    color: white;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 40px auto 0 auto;
+    width: 30%;
+    padding-top: 13px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    height: 45px;
+    
+}
+
+.submit-link {
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+
+.submit:hover {
+    color: rgb(0, 187, 250);
+    cursor: pointer;
+
+}
+
+.username-2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+  @media (max-width: 900px) {
+    .submit {
+      width: 80%;
+    }
+
+    .login-section {
+        width: 90%;
+    }
+  }
